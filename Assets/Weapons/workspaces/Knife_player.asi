@@ -1,0 +1,17 @@
+AnimSetInstanceSource {
+ Template "{18F60A9C02AA456B}Assets/Weapons/Handguns/workspaces/PM.ast"
+ IkPose "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
+ Lines {
+  AnimSetInstanceSource_Line "Reload.Erc.IKOffset" {
+   Resource "{A559873EFA09A8D5}Assets/Weapons/workspaces/txa/p_knf_01_offset.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Safety" {
+   Resource "{8D6FDDE36568FF15}Assets/Weapons/workspaces/txa/p_knf_01_safety.anm"
+  }
+  AnimSetInstanceSource_Line "Reload.Erc.Idle" {
+   Resource "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
+  }
+ }
+ RBF AnimSetInstanceSourceRBFArray "{59EAF1483300AB9D}" {
+ }
+}

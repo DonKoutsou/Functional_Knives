@@ -1,0 +1,6 @@
+AnimSetInstanceSource {
+ Template "{18F60A9C02AA456B}Assets/Weapons/Handguns/workspaces/PM.ast"
+ IkPose "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
+ RBF AnimSetInstanceSourceRBFArray "{59EAF1483300C4F3}" {
+ }
+}

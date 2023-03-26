@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+    PivotID "Spine5"
+    Offset 0.1824 -0.0646 -0.0573
+    Angles -56.6471 -154.97391 13.0616
+   }
+   WeaponTemplate "{3805C0B87B9D2AB0}prefabs/weapons/Melee/Knife.et"
+   HolsteredHidden 0
+  }
+ }
+}
