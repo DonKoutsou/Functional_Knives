@@ -19,6 +19,10 @@ SCR_ChimeraCharacter : "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_
 GenericEntity : "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et" {
  coords 128.563 1.001 123.781
 }
+GenericEntity : "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et" {
+ coords 128.304 1.001 125.249
+ angleZ 0
+}
 $grp GenericEntity : "{15067AD09803580D}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_MG.et" {
  {
   coords 127.883 1.001 123.71
@@ -37,6 +41,25 @@ SCR_ChimeraCharacter : "{1C78331E156A3D65}Prefabs/Characters/Factions/OPFOR/USSR
 SCR_ChimeraCharacter : "{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et" {
  coords 133.969 1.001 135.382
  angleY -90
+}
+$grp GenericEntity : "{202B26ADA1621199}prefabs/weapons/Melee/Machete.et" {
+ {
+  coords 128.46 1.002 124.901
+ }
+ {
+  components {
+   WeaponComponent "{5CF51AF1F523FE8D}" {
+    components {
+     WeaponAnimationComponent "{5CF51AF1F523FE93}" {
+      AnimInjection AnimationAttachmentInfo "{5CF51AF1F523FE90}" {
+       AnimGraph "{6966BF858039C3D9}Assets/Weapons/Handguns/workspaces/Knife.agr"
+      }
+     }
+    }
+   }
+  }
+  coords 128.46 1.002 124.901
+ }
 }
 SCR_ChimeraCharacter : "{23ADBBC31B6A3DC6}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AR.et" {
  coords 123.581 1.001 121.942
@@ -85,6 +108,14 @@ $grp SCR_ChimeraCharacter : "{5346CF7E39A65A6B}prefabs/Characters/Factions/OPFOR
  }
  {
   coords 128.322 1.001 122.134
+ }
+ {
+  components {
+   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+    WeaponTemplate "{202B26ADA1621199}prefabs/weapons/Melee/Machete.et"
+   }
+  }
+  coords 129.214 1.001 122.134
  }
 }
 SCR_ChimeraCharacter : "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" {
@@ -166,7 +197,7 @@ $grp GenericEntity : "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.e
   coords 127.782 1.001 130.284
  }
  {
-  coords 128.336 1.001 125.009
+  coords 128.673 1.001 125.477
  }
 }
 GenericEntity : "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_USSR_01.et" {

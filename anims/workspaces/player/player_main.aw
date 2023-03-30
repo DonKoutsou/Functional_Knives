@@ -11,6 +11,7 @@ BaseSource {
   "{3E5854C1EB5A2E3C}anims/workspaces/player/player_main_RPK74.asi"
   "{AF06D3F738A50403}anims/workspaces/player/player_main_heavy.asi"
   "{17DE3CEA53D08CB5}anims/workspaces/player/player_main_knife.asi"
+  "{D00F21BD5047AD32}anims/workspaces/player/player_main_Machete.asi"
  }
  AnimGraph "{DFFC0A34A77ADCB4}anims/workspaces/player/player_main.agr"
  PreviewModels {

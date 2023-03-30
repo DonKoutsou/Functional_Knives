@@ -5,38 +5,23 @@ AnimSetInstanceSource {
  }
  IkPose "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
  Lines {
-  AnimSetInstanceSource_Line "MeleeAttacks.CroRas.MeleeAttack01" {
-   Resource "{82945AFD79ED1F3C}Assets/Weapons/workspaces/txa/p_knf_cro_atack_slash_melee_ras.anm"
-  }
-  AnimSetInstanceSource_Line "MeleeAttacks.ErcRas.MeleeAttack01" {
-   Resource "{20BE1383879B5138}Assets/Weapons/workspaces/txa/p_knf_erc_atack_slash_melee_ras.anm"
-  }
-  AnimSetInstanceSource_Line "WeaponSwitching.ErcRas.Hide02" {
-   Resource "{32F55410BFC3C5B7}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_hide.anm"
-  }
-  AnimSetInstanceSource_Line "WeaponSwitching.ErcRas.Hide01" {
-   Resource "{32F55410BFC3C5B7}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_hide.anm"
-  }
-  AnimSetInstanceSource_Line "WeaponSwitching.ErcRas.Show02" {
+  AnimSetInstanceSource_Line "WeaponSwitching.ErcLow.Show02" {
    Resource "{BA8F5A8F3D8317E0}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_show.anm"
   }
-  AnimSetInstanceSource_Line "WeaponSwitching.ErcRas.HideSling" {
-   Resource "{32F55410BFC3C5B7}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_hide.anm"
-  }
-  AnimSetInstanceSource_Line "WeaponSwitching.ErcRas.Show01" {
+  AnimSetInstanceSource_Line "WeaponSwitching.ErcLow.Show01" {
    Resource "{BA8F5A8F3D8317E0}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_show.anm"
   }
-  AnimSetInstanceSource_Line "Locomotion.CroRas.Idle" {
-   Resource "{A559873EFA09A8D5}Assets/Weapons/workspaces/txa/p_knf_01_offset.anm"
+  AnimSetInstanceSource_Line "MeleeAttacks.ErcLow.MeleeAttack01" {
+   Resource "{BA49CF79615C8B5B}Assets/Weapons/workspaces/txa/p_knf_erc_low_atack_slash_melee_ras.anm"
   }
-  AnimSetInstanceSource_Line "Locomotion.ErcRas.Idle" {
-   Resource "{A559873EFA09A8D5}Assets/Weapons/workspaces/txa/p_knf_01_offset.anm"
+  AnimSetInstanceSource_Line "WeaponSwitching.ErcLow.Hide01" {
+   Resource "{32F55410BFC3C5B7}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_hide.anm"
   }
-  AnimSetInstanceSource_Line "IdleTurn.ErcRas.Idle" {
-   Resource "{45550FC064BBE7A7}Assets/Weapons/workspaces/txa/p_knf_01_idle.anm"
+  AnimSetInstanceSource_Line "WeaponSwitching.ErcLow.Hide02" {
+   Resource "{32F55410BFC3C5B7}Assets/Weapons/workspaces/txa/p_knf_erc_slot_belt_hide.anm"
   }
-  AnimSetInstanceSource_Line "IdleTurn.ErcLow.Idle" {
-   Resource "{45550FC064BBE7A7}Assets/Weapons/workspaces/txa/p_knf_01_idle.anm"
+  AnimSetInstanceSource_Line "MeleeAttacks.CroLow.MeleeAttack01" {
+   Resource "{7C7A3EB0BD27CD93}Assets/Weapons/workspaces/txa/p_knf_cro_low_atack_slash_melee_ras.anm"
   }
  }
  RBF AnimSetInstanceSourceRBFArray "{5CCD1362AAC08DD1}" {

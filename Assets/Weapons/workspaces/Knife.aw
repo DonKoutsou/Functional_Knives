@@ -1,8 +1,10 @@
 BaseSource {
  AnimSetTemplate "{18F60A9C02AA456B}Assets/Weapons/Handguns/workspaces/PM.ast"
  AnimSetInstances {
-  "{2AD8B7C19724A636}Assets/Weapons/workspaces/Knife_player.asi"
-  "{D18626F00F25C2DA}Assets/Weapons/workspaces/Knife_weapon.asi"
+  "{F4599E6594A7D3EA}Assets/Weapons/workspaces/Knife_player.asi"
+  "{0F070F540CA6B706}Assets/Weapons/workspaces/Knife_weapon.asi"
+  "{133CB9198BBA878C}Assets/Weapons/workspaces/Machete_player.asi"
+  "{E862282813BBE360}Assets/Weapons/workspaces/Machete_Weapon.asi"
  }
  AnimGraph "{6966BF858039C3D9}Assets/Weapons/Handguns/workspaces/Knife.agr"
  PreviewModels {

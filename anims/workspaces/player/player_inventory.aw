@@ -9,7 +9,7 @@ BaseSource {
   "{CD706CDA25024989}anims/workspaces/player/player_inventory_1handed.asi"
   "{A99BA5D249B525FD}anims/workspaces/player/player_inventory_M72.asi"
   "{EFDC6FADA926C158}anims/workspaces/player/player_inventory_heavy.asi"
-  "{570480B0C25349EE}anims/workspaces/player/player_inventory_knife.asi"
+  "{570480B0C25349EF}anims/workspaces/player/player_inventory_knife.asi"
  }
  AnimGraph "{7E131B0DEA83D762}anims/workspaces/player/player_inventory.agr"
  PreviewModels {

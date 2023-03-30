@@ -38,27 +38,22 @@ GenericEntity {
     }
     ItemAnimationAttributes ItemAnimationAttributes "{5AED36F415E48A83}" {
      IkSettings {
-      ItemIKSettings "{5CD312A61E2B0533}" {
+      ItemIKSettings "{5CF4A1B5118EAA24}" {
+       Lowered 1
+       ProneTurn 1
        InAds 0
-       MovementSpeedRange 0 2
-       IkSettingsCrouch 6
-      }
-      ItemIKSettings "{5CCB18132581B944}" {
-       Jumping 1
-       MovementSpeedRange 2 2
-       IkSettingsStand 1
+       MovementSpeedRange 2 3
       }
      }
      AnimationInstance "{17DE3CEA53D08CB5}anims/workspaces/player/player_main_knife.asi"
-     AnimationIKPose "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
-     AllowInspection 1
+     AnimationIKPose "{B4AE33A93315AF27}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
     }
     CustomAttributes {
      PreviewRenderAttributes "{5AED36F415E48B34}" {
       CameraOrbitAngles 45 -70 150
       CameraDistanceToItem 0.3
       FOV 45
-      AnimationInstance "{570480B0C25349EE}anims/workspaces/player/player_inventory_knife.asi"
+      AnimationInstance "{570480B0C25349EF}anims/workspaces/player/player_inventory_knife.asi"
      }
     }
     m_SlotType SLOT_WEAPONS_STORAGE
@@ -74,7 +69,7 @@ GenericEntity {
      AlwaysActive 1
      AnimInjection AnimationAttachmentInfo "{5AED36F415E48F76}" {
       AnimGraph "{6966BF858039C3D9}Assets/Weapons/Handguns/workspaces/Knife.agr"
-      AnimInstance "{2AD8B7C19724A636}Assets/Weapons/workspaces/Knife_player.asi"
+      AnimInstance "{0F070F540CA6B706}Assets/Weapons/workspaces/Knife_weapon.asi"
       StartNode "IdleFireSTM"
       BindingName "Weapon"
      }
@@ -87,7 +82,7 @@ GenericEntity {
    SignalsSourceAccess SignalsSourceAccessClass "{5AED36F415E48F62}" {
    }
    WeaponType Handgun
-   AllowedRaise "Only raised"
+   AllowedRaise "Only lowered"
    StanceLimits 0 2
    shouldHandleObstruction 0
    obstructionTestCharacterOffset 0 0 0
