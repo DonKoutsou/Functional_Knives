@@ -498,6 +498,11 @@ AnimSrcGraphFile {
        IkChain "LeftArm"
       }
      }
+     Solver AnimSrcNodeIK2TwoBoneSolver {
+      SnapRotation 1
+      AllowStretching 1
+     }
+     Version 1
     }
     AnimSrcNodeSource ModeOnSrc {
      EditorPos 13.6 11.2

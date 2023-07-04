@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf"
+ Name "{B600946E9ACC17C2}Configs/Identities/FactionIdentity_US.conf"
  Configurations {
   CONFResourceClass PC {
   }

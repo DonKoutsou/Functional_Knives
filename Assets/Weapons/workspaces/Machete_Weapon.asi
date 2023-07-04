@@ -3,4 +3,6 @@ AnimSetInstanceSource {
  ParentTemplates {
   "{0F070F540CA6B706}Assets/Weapons/workspaces/Knife_weapon.asi"
  }
+ RBF AnimSetInstanceSourceRBFArray "{5DC923C44C60E08B}" {
+ }
 }

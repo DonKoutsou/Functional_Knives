@@ -3,7 +3,7 @@ AnimSetInstanceSource {
  ParentTemplates {
   "{F4599E6594A7D3EA}Assets/Weapons/workspaces/Knife_player.asi"
  }
- IkPose "{B4AE33A93315AF26}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
+ IkPose "{B4AE33A93315AF27}Assets/Weapons/workspaces/txa/p_knf_01_ik.anm"
  RBF AnimSetInstanceSourceRBFArray "{5CFCE08A94A996B8}" {
  }
 }

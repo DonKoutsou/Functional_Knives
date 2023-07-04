@@ -68,7 +68,7 @@ GenericEntity {
      StartNode "IdleFireSTM"
      AlwaysActive 1
      AnimInjection AnimationAttachmentInfo "{5AED36F415E48F76}" {
-      AnimGraph "{6966BF858039C3D9}Assets/Weapons/Handguns/workspaces/Knife.agr"
+      AnimGraph "{0A046C9C356F9198}Assets/Weapons/Handguns/workspaces/PM.agr"
       AnimInstance "{0F070F540CA6B706}Assets/Weapons/workspaces/Knife_weapon.asi"
       StartNode "IdleFireSTM"
       BindingName "Weapon"
@@ -134,15 +134,6 @@ GenericEntity {
       Name "#AR-Inventory_PickUp"
      }
      "Sort Priority" 2
-    }
-    SCR_WeaponAction "{5AED36F415E48062}" {
-     ParentContextList {
-      "bipod"
-     }
-     UIInfo UIInfo "{5AED36F415E48060}" {
-      Name "Bipod"
-     }
-     m_WeaponActionType Bipod
     }
    }
   }
