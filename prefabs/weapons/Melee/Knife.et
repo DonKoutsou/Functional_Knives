@@ -14,13 +14,10 @@ GenericEntity {
     1 1 1 1
    }
   }
-  Hierarchy "{5AED36F415E489B6}" {
-  }
   RigidBody "{5AED36F415E489A0}" {
   }
   SCR_MeleeWeaponProperties "{5AED36F415E489A6}" {
    m_fDamage 300
-   m_fExecutionTime 0.1
   }
   SCR_WeaponAttachmentsStorageComponent "{5AED36F415E48BFE}" {
    Attributes SCR_ItemAttributeCollection "{5AED36F415E48BD2}" {
@@ -83,7 +80,6 @@ GenericEntity {
    }
    WeaponType Handgun
    AllowedRaise "Only lowered"
-   StanceLimits 0 2
    shouldHandleObstruction 0
    obstructionTestCharacterOffset 0 0 0
    obstructionTestAddedLength 0.35
@@ -138,6 +134,8 @@ GenericEntity {
    }
   }
   RplComponent "{5AED36F415E48031}" {
+  }
+  Hierarchy "{5AED36F415E489B6}" {
   }
  }
  coords 120.452 2.019 123.11

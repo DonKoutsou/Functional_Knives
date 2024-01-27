@@ -453,24 +453,27 @@ AnimSrcGraphFile {
      "weaponrotator = RightArm"\
      "weaponaxis = +z"\
      ""\
+     "chain_override_pos_iktarget = WeaponDeploymentIK"\
      ""\
-     "chain = RightArm, RightArmTwist, RightForeArm, RightForeArmTwist, RightHand"\
+     "chain = rightarm, rightarmtwist, rightforearm, rightforearmtwist, righthand"\
      "chainaxis = -y"\
-     "secchain = LeftArm, LeftArmTwist, LeftForeArm, LeftForeArmTwist, LeftHand"\
+     "secchain = leftarm, leftarmtwist, leftforearm, leftforearmtwist, lefthand"\
      "secchainaxis = +y"\
      ""\
      "ikpose_chainoffset = RightHandOrigin              			// bone in ikpose specifying where was "\
-     "ikpose_weaponoffset = RightHandProp     			// weapon offset from RHand "\
+     "ikpose_weaponoffset = RightHandProp      			// weapon offset from RHand "\
      "ikpose_secchainoffset = LeftHandIKTarget      			// secondary chain ik target offset (relative to weapon)"\
      "ikpose_chainmiddledir = RightForeArmDirection			// hand to elbow direction (from hand)"\
      "ikpose_chainmiddlediro = RightHandOrigin,RightForeArmDirectionOrigin	// original hand to elbow direction (from hand)"\
      "ikpose_secchainmiddledir = LeftForeArmDirection			// sec hand to elbow direction (from ikpose_secchainoffset)"\
-     "ikpose_secchainmiddlediro = LeftHandOrigin,LeftForeArmDirectionOrigin	// original sec hand to elbow direction (from ikpose_secchainoffset)"
+     "ikpose_secchainmiddlediro = LeftHandOrigin,LeftForeArmDirectionOrigin	// original sec hand to elbow direction (from ikpose_secchainoffset)"\
+     ""\
+     ""
      BlendInTime 0.3
      BlendOutTime 0
      WeightAim "false"
-     WeightPrimaryChain "isbitset(ArmIK, 1) && WeaponType != 6 && WeaponType != 4"
-     WeightSecondaryChain "isbitset(ArmIK, 2) && WeaponType != 4 && !IsEvent(\"IK_Release_L\")"
+     WeightPrimaryChain "1"
+     WeightSecondaryChain "WeaponType != 7 && WeaponType != 8 && WeaponType != 6 && WeaponType != 4"
      WeaponDirLr "0.0"
      WeaponDirUd "0.0"
      WeaponRoll "0.0"

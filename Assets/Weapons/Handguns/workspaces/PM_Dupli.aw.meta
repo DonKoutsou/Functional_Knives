@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9645F0C298F6D9F2}Assets/Weapons/Handguns/workspaces/PM_Dupli.aw"
+ Configurations {
+  AnimWorkspaceResourceClass PC {
+  }
+  AnimWorkspaceResourceClass XBOX_ONE : PC {
+  }
+  AnimWorkspaceResourceClass XBOX_SERIES : PC {
+  }
+  AnimWorkspaceResourceClass PS4 : PC {
+  }
+  AnimWorkspaceResourceClass HEADLESS : PC {
+  }
+ }
+}
